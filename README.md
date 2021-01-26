@@ -31,3 +31,10 @@ module.exports = {
 
 最后,最最最重要 的一点, 一定要重新启动项目 npm run dev , 才会起作用呐 !
 ```
+### 谷歌浏览器设置跨域
+```html
+1.在电脑上新建一个目录，例如：C:\MyChromeDevUserData
+2.在属性页面中的目标输入框里加上   --disable-web-security --user-data-dir=C:\MyChromeDevUserData，--user-data-dir的值就是刚才新建的目录
+
+方式来源页面：https://blog.csdn.net/qq_39985511/article/details/101067765
+```
